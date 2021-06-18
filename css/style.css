@@ -1116,6 +1116,10 @@ strong {
   position: relative;
 }
 
+.footer .container-max {
+  position: relative;
+}
+
 .footer__wrap {
   padding: 272px 0;
   display: -webkit-box;
@@ -1468,12 +1472,12 @@ strong {
   z-index: 5;
 }
 
-.header .popap:target {
+.header .popap.showIt {
   opacity: 1;
   visibility: visible;
 }
 
-.header .popap:target .popap__content {
+.header .popap.showIt .popap__content {
   -webkit-transform: translate(0px, 0px);
       -ms-transform: translate(0px, 0px);
           transform: translate(0px, 0px);
@@ -1571,6 +1575,10 @@ strong {
   width: 100%;
   position: relative;
   padding-bottom: 200px;
+}
+
+.first__screen .container-max {
+  position: relative;
 }
 
 .first__screen_green {
@@ -3810,6 +3818,10 @@ strong {
 
   .container {
     max-width: 570px;
+  }
+
+  .header__menu .burger-item {
+    right: -20px;
   }
 
   .first__screen_text h2 {
